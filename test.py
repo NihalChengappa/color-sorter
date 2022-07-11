@@ -11,7 +11,6 @@ for i in range(img.size[0]):
         h,s,v=main.rgb_to_hsv(r,g,b)
         if h>200 and h<225 and v>30 :
             row.append("1")
-
             pix[i,j]=(0,0,0)
             print(h,s,v)
         else:

@@ -5,8 +5,8 @@ import math
 img = cv2.imread("/home/nihalchengappa/Documents/color sorter/rice.jpg") # 512x512
 
 img_shape = img.shape
-tile_size = (20,20)
-offset = (20,20)
+tile_size = (10,10)
+offset = (10,10)
 count=0
 
 for i in range(int(math.ceil(img_shape[0]/(offset[1] * 1.0)))):
